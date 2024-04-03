@@ -107,9 +107,9 @@ let songDescription = document.querySelector("p");
 
 // Daftar lagu
 let songs = [
-    { title: "Tak akan ada cinta yang lain", image: "./assets/giphy.gif", src: "./assets/Dewa 19 - Tak Kan Ada Cinta yang Lain _ Official Lyric Video.mp3" },
-    { title: "Munajat cinta", image: "./assets/sad2.gif", src: "./assets/The Rock - Munajat Cinta (Official Music Video).mp3" },
-    // Tambahkan lagu lainnya di sini
+    { title: "Tak akan ada cinta yang lain",description:"dewa 19", image: "./assets/giphy.gif", src: "./assets/Dewa 19 - Tak Kan Ada Cinta yang Lain _ Official Lyric Video.mp3" },
+    { title: "Munajat cinta",description:"dewa 19", image: "./assets/sad2.gif", src: "./assets/The Rock - Munajat Cinta (Official Music Video).mp3" },
+ 
 ];
 
 let currentSongIndex = 0;
