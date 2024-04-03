@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>porto website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e4dc3a114d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+<!-- about -->
+    <header class="about" id="about">
+        <div class="navbar-1">
+                <ul class="links">
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#project">project</a></li>
+                    <li><a href="#certificate">certificate</a></li>
+                    <li><a href="#hobby">hobby</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="parallax home">
+            <div class="social-media">
+                <div class="profile-container">
+                    <div class="profile">
+                        <img src="./assets/profilenobg.png" alt="Foto Profil">
+                    </div>
+                    <div class="profile-info">
+                        <h2  class="animate-entry" data-speed="100">Hallo, my name is Miftahul Huda</h2>
+                        <p class="profile-text">Sedikit tentang saya...</p>
+                    </div>
+                </div>
+                <div class="space">
+                    <a href="https://www.instagram.com/m.hud_aa/">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com/IAMHUDA">
+                        <i class="fa-brands fa-square-github"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="logo">
+                <!-- Isi dengan elemen-elemen logo Anda -->
+            </div>
+        </div>
+        
+        
+    </header>
+<!-- about -->
+
+<!-- prohect -->
+    <section id="project" class="my-project">
+        <div class="navbar-2">
+            <ul class="links">
+                <li><a href="#about">about</a></li>
+                <li><a href="#project">project</a></li>
+                <li><a href="#certificate">certificate</a></li>
+                <li><a href="#hobby">hobby</a></li>
+            </ul>
+        </div>
+    <section class="projectku">
+        <div class="project__div">
+          <span style="color: burlywood;" data-speed="150">M</span>
+          <span style="color: burlywood;" data-speed="-200">Y</span>
+          <span data-speed="250">P</span>
+          <span data-speed="-100">R</span>
+          <span data-speed="300">O</span>
+          <span data-speed="-50">J</span>
+          <span data-speed="200">E</span>
+          <span data-speed="-150">C</span>
+          <span data-speed="100">T</span>
+        </div>
+      </section>
+        <section class="parallax project">
+            <div class="project__list">
+                <div class="project__item">
+                  <img src="./assets/web-learning.png" onclick="openModal1()" alt="Project 1" class="project__image">
+                  <div class="project__title">Project learning path - website</div>
+                  <div class="project__icon"><i class="fas fa-eye" onclick="openModal()"></i></div>
+                </div>
+                <div class="project__item">
+                    <img src="./assets/web-kmti.png" alt="Project 2" onclick="openModal2()" class="project__image">
+                    <div class="project__title">Project himpunan KMTI - website</div>
+                    <div class="project__icon"><i class="fas fa-eye" onclick="openModal2()"></i></div>
+                  </div>
+                  <div class="project__item">
+                    <img src="./assets/web-kasir-react.png" alt="Project 3" onclick="openModal3()" class="project__image">
+                    <div class="project__title">Project kasir dengan react - website development</div>
+                    <div class="project__icon"><i class="fas fa-eye" onclick="openModal3()"></i></div>
+                  </div>
+            </div>
+        </section>
+    </section>
+<!-- project -->
+<!-- certificate -->
+<section  id="certificate" class="my-certificate">
+    <div class="navbar-3">
+        <ul class="links">
+            <li><a href="#about">about</a></li>
+            <li><a href="#project">project</a></li>
+            <li><a href="#certificate">certificate</a></li>
+            <li><a href="#hobby">hobby</a></li>
+        </ul>
+    </div>
+    <section class="certificate">
+        <div class="certificate__div">
+          <span style="color: burlywood;" data-speed="150">M</span>
+          <span style="color: burlywood;" data-speed="-200">Y</span>
+          <span data-speed="250">C</span>
+          <span data-speed="-100">E</span>
+          <span data-speed="300">R</span>
+          <span data-speed="-50">T</span>
+          <span data-speed="200">I</span>
+          <span data-speed="-150">F</span>
+          <span data-speed="300">I</span>
+          <span data-speed="-100">C</span>
+          <span data-speed="200">A</span>
+          <span data-speed="-100">T</span>
+          <span data-speed="100">E</span>
+        </div>
+      </section>
+      <section class="parallax project">
+        <div class="container">
+            <section class="template">
+                <div class="content">
+                    <img src="./assets/sertif1.png" alt="Sertifikat 1">
+                <div class="certificate-tittle">certificate 1</div>
+                <div class="certificate__icon"><i class="fas fa-eye" onclick="opencertif1()"></i></div>
+                </div>
+            </section>
+            
+            <section class="template">
+                <div class="content">
+                    <img src="./assets/sertif2.jpg" alt="Sertifikat 2">
+                    <div class="certificate-tittle">certificate 2</div>
+                    <div class="certificate__icon"><i class="fas fa-eye" onclick="opencertif2()"></i></div>
+                </div>
+            </section>
+        </div>
+      </section>
+</section>
+<!-- certificate -->
+<!-- hobby -->
+<section id="hobby" class="my-hobby">
+    <div class="deskripsi">
+        <h1>
+            My hobby listen to music
+        </h1>
+    </div>
+<section class="parallax hobby">
+    <div class="container-hobby">
+        <div class="music-player">
+            <nav>
+                <div class="circle" href="#certificate" >
+                    <a href="#certificate" ><i class="fa-solid fa-circle-up"></i></i></a>
+                </div>
+                <div class="circle">
+                    <i class="fa-solid fa-align-left"></i>
+                </div>
+            </nav>
+            <img src="./assets/giphy.gif" alt="musik" class="song-img">
+            <h1>tak akan ada cinta yang lain</h1>
+            <audio id="song">
+                <source src="./assets/Dewa 19 - Tak Kan Ada Cinta yang Lain _ Official Lyric Video.mp3" type="audio/mpeg">
+            </audio>
+            <input type="range" value="0" id="progress">
+            <div class="controls">
+                <div onclick="prevSong()"><i class="fa-solid fa-backward"></i></div>
+                <div onclick="playPause()"><i class="fa-solid fa-play" id="ctrlIcon"></i></div>
+                <div onclick="nextSong()"><i class="fa-solid fa-forward"></i></div>
+            </div>
+        </div>
+    </div>
+</section>
+</section>
+<!-- hobby -->
+    <script src="./src/script.js"></script>
+    <script src="./src/my-scripts.js"></script>
+</body>
+</html>
